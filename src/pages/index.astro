@@ -1,0 +1,65 @@
+---
+const siteName = 'emfls-smarthome';
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!--
+      Stage 2 bootstrap protection:
+      Keep this site out of search indexes until later launch stages.
+    -->
+    <meta name="robots" content="noindex, nofollow" />
+
+    <title>{siteName}</title>
+
+    <meta
+      name="description"
+      content="EMFLS network site bootstrap. Site-specific information architecture, content, and design will be added in later stages."
+    />
+  </head>
+
+  <body>
+    <main>
+      <p>EMFLS</p>
+      <h1>{siteName}</h1>
+      <p>
+        This site is in its initial technical bootstrap stage.
+      </p>
+    </main>
+  </body>
+</html>
+
+<style>
+  :global(*) {
+    box-sizing: border-box;
+  }
+
+  :global(html) {
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+    background: #f7f7f5;
+    color: #181818;
+  }
+
+  :global(body) {
+    margin: 0;
+  }
+
+  main {
+    width: min(42rem, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+</style>
