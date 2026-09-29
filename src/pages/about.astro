@@ -1,0 +1,28 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+const title = '사이트 소개와 다루는 범위 | EMFLS 스마트홈';
+const description = 'EMFLS 스마트홈의 목적과 주제 범위를 소개합니다. 스마트홈의 연결 구조와 자동화 원리를 설명하며 개별 제품의 호환성이나 실제 기기 제어를 제공하지 않습니다.';
+---
+
+<SiteLayout title={title} description={description} canonicalPath="/about/">
+  <article class="content-width article-copy">
+    <p class="eyebrow">About this site</p>
+    <h1 class="page-title">집 안의 연결을<br />차근히 이해하는 안내서</h1>
+    <p class="page-lede">EMFLS 스마트홈은 센서, 네트워크, 컨트롤러, 자동화 규칙이 어떤 역할을 나누는지 설명하는 한국어 정보 사이트입니다.</p>
+
+    <h2>무엇을 설명하나요?</h2>
+    <p>스마트홈을 구성하는 기기의 역할과 연결 방식, 자동화가 시작되고 끝나는 흐름, 설치와 운영 전에 살펴볼 안전·개인정보 질문을 다룹니다. 독자가 브랜드명보다 먼저 필요한 기능과 집의 조건을 정리할 수 있도록 돕는 것이 목적입니다.</p>
+
+    <h2>무엇을 제공하지 않나요?</h2>
+    <ul>
+      <li>특정 제품의 인증·호환성이나 가격을 보장하지 않습니다. 구매 전 정확한 모델 정보를 제조사와 공식 인증 기관에서 확인하세요.</li>
+      <li>이 사이트에서 실제 조명, 잠금장치, 카메라 또는 다른 기기를 연결하거나 조작할 수 없습니다.</li>
+      <li>전기 설비 변경, 보안 설정 또는 비상 대응을 대신하지 않습니다. 제품 설명과 전문가의 안전 지침을 따르세요.</li>
+    </ul>
+
+    <h2>자료와 수정</h2>
+    <p>표준과 역할에 관한 설명은 표준 기구, 기술 단체와 공공 기관 자료를 기준으로 확인합니다. 날짜나 모델에 따라 바뀌는 정보는 공식 제조사 문서를 확인하도록 안내하며, 용어 정의와 출처는 <a class="text-link" href="/editorial-policy/">편집 원칙</a>에서 공개합니다.</p>
+    <p>잘못되거나 갱신이 필요한 설명은 <a class="text-link" href="/contact/">문의 페이지</a>의 공개 이슈 트래커를 통해 알려주세요. 공개 게시물에는 개인 정보를 쓰지 마세요.</p>
+  </article>
+</SiteLayout>

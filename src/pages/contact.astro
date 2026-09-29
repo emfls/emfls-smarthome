@@ -1,0 +1,27 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+const title = '오류 제보와 문의 | EMFLS 스마트홈';
+const description = 'EMFLS 스마트홈의 오류나 출처 갱신을 GitHub 공개 이슈로 알려주세요. 게시물은 공개될 수 있으므로 개인 정보나 기기 계정·접속 정보는 입력하지 마세요.';
+---
+
+<SiteLayout title={title} description={description} canonicalPath="/contact/">
+  <article class="content-width article-copy">
+    <p class="eyebrow">Contact & corrections</p>
+    <h1 class="page-title">오류와 자료 갱신을 알려주세요</h1>
+    <p class="page-lede">주제 설명의 오류, 깨진 링크, 공식 자료의 변경을 알려주시면 내용을 다시 확인하겠습니다. 사이트에 문의 입력 폼이나 비공개 상담 채널은 없습니다.</p>
+
+    <h2>공개 이슈로 제보하기</h2>
+    <p>아래 링크는 EMFLS 스마트홈 저장소의 GitHub 공개 이슈 페이지로 연결됩니다. 이슈와 답변은 누구나 볼 수 있고, GitHub 계정이 필요합니다.</p>
+    <p><a class="primary-link" href="https://github.com/emfls/emfls-smarthome/issues/new/choose" target="_blank" rel="noreferrer">GitHub에서 오류·자료 변경 제보 <span aria-hidden="true">↗</span></a></p>
+    <div class="callout">공개 이슈에는 이메일·전화번호·주소, 비밀번호, 인증 코드, 카메라 영상, 집의 상세 위치나 네트워크 정보를 적지 마세요. 구체적인 제품 호환성을 물을 때는 개인 식별 정보 없이 공식 모델명과 공개 문서 링크만 포함하세요.</div>
+
+    <h2>무엇을 적으면 좋나요?</h2>
+    <ul>
+      <li>확인한 페이지 주소와 문장의 주제</li>
+      <li>수정이 필요하다고 판단한 이유와 확인 가능한 공식 자료 링크</li>
+      <li>정보가 달라진 경우 공식 자료의 게시일이나 확인한 날짜</li>
+    </ul>
+    <p>제보는 검토 요청이며 즉시 게시나 특정 답변을 보장하지 않습니다. 공개 문의 경로의 데이터 처리에 대해서는 <a class="text-link" href="/privacy/">개인정보 안내</a>를 읽어주세요.</p>
+  </article>
+</SiteLayout>
